@@ -1,3 +1,7 @@
-//Votre code ici
+const add = (a, b) => {
+ const numA = parseFloat(a);
+ const numB = parseFloat(b);
+ return numA + numB;
+}
 
- export default add;
+export default add;
